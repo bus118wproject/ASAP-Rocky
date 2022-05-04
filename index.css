@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: black;
+    margin: 25px 50px;
+    color: white;
+}
+
+
+.name{
+    text-align: center;
+}
+
+.name h1{
+    display: inline;
+    font-size: 60px;
+}
+
+.name h2{
+    display: inline;
+    color: #58068f;
+    font-size: 60px;
+}
+
+.topnav{
+    margin: 25px;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+}
+
+.topnav a{
+    text-decoration: none;
+    color: white;
+}
+
+.topnav a:hover{
+    color: #58068f;
+}
+
+.line-div{
+    flex: 1;
+    padding: 0 10px;
+}
+
+.line{
+    height: 48%;
+    border-bottom: 3px solid white;
+}
+
+#albums{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 100%;
+}
+
+.alb-pics{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.alb{
+    max-width: 20vw;
+}
+
+.txt-head{
+    border-radius: 30px;
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 20px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+#about p{
+    text-align: center;
+}
+
+.email{
+    text-align: center;
+}
+
+.txt-em{
+    width: 45%;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+.btn-em{
+    background-color: black;
+    color: white;
+    border-width: 0px;
+    font-size: 16px;
+}
+
+.btn-em:hover{
+    cursor: pointer;
+    color: #58068f;
+}
+
+.btn-em:active{
+    color: red;
+}
+
+.f-text{
+    background-color: grey;
+    text-align: center;
+    padding: 30px 0px;
+    position: relative;
+    left: -50px;
+    width: 100vw;
+    font-size: 40px;
+    bottom: -125px;
+}
+
+.soc-pics{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.soc{
+    max-width: 10vw;
+    padding: 0px 20px;
+}
+img {float: left;}
+div.album{background-color:     rgb(94, 92, 92);/*This is to change the style of the album description*/
+            margin-right: 20%;
+            width:90%;
+            height:220px;
+            color:black;
+            font-family: sans-serif;
+        font-weight: bold;}
+.gold_text{color:goldenrod}/*gold color for album name*/
+.clear_space {
+    clear:left;
+    height:25px;}/*space between albums*/
+div.album_spotify{float:left;}
+div.imageheader{/*This centers image headers*/
+    display: flex;
+    justify-content: center;
+    }
+
+div.eventtable{
+        margin: auto;
+        color:white;
+        font-family: sans-serif;
+	
+        }
+		
+.eventtable table tr:nth-child(even){background-color: rgba(59,31,91,0.30);}
+			table tr:nth-child(odd){background-color: rgba(59,31,91,0.70);}
+			tr{height: 50px;}
+			th {color: white;
+ 				 background: black;
+				height: 30px;
+				font-size: 20px;
+					}
+.open-button {
+  background-color: #B9AD00;
+  color: black;
+  font-size: 25px;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+position:relative;
+left: 40%;
+margin-top:2.5%;
+}
+.form-popup {
+  display: none;
+  border: none;
+  z-index: 9;
+}
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  position:relative;
+  left: 40%;
+  margin-top:2.5%;
+  ;
+}
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+	outline: none;
+}
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+.form-container .cancel {
+  background-color: red;
+}
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+div.merch{background-color:     rgb(255, 255, 255);/*This is to change the style of the merchandise description*/
+            margin-right: 10%;
+			margin-left: 10%;
+            width: 80%;
+            height: 300px;
+            color:black;
+            font-family: sans-serif;
+			}
+
+.merch a{font-weight: bold;;
+            font-size: 25px;
+            color: #08ccbc;
+        }     
+.merch p{
+    color: #000000;
+    font-size: 16px;
+}
+
